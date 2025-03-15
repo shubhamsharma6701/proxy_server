@@ -1,0 +1,38 @@
+Setting proxy server port : 2500
+Binding on port: 2500
+
+client is connected with port number: 36816 and ip address: 127.0.0.1
+Semaphore value: 399
+Remove cache lock acquired 0
+URL not found in cache
+Remove cache lock acquired 0
+Add cache lock acquired 0
+Add cache lock unlocked 0
+Done
+Semaphore post value: 400
+
+----------------------------------------------------------------------
+
+Client is connected with port number: 36824 and ip address: 127.0.0.1
+Semaphore value: 399
+Remove cache lock acquired 0
+LRU time track before: 160660397
+URL found
+LRU time track after: 160660406
+Remove cache lock acquired 0
+Data retrieved from the cache
+
+HTTP/1.1 301 Moved Permanently
+Date: Sun 29 July 2024 09:00:03 GMT
+Server: Apache/2.4.41 (Springdale Linux) OpenSSL/1.0.2k-fips PHP/5.6.25
+Location: http://www.cs.princeton.edu/
+Content-Length: 236
+Connection: close
+Content-Type: text/html; charset=iso-8859-1
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title> 301 Moved permanently</title>
+</head><body>
+<p>The document has moved <a href="http://www.cs.princeton.edu/">here</a>
+</body></html>
